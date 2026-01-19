@@ -16,6 +16,6 @@ Before you can run this, you need access to an OpenShift cluster that has Dev Sp
 1. Create a new Workspace from this git repo: `https://github.com/cgruver/che-ansible-demo.git`
 1. Wait for the workspace to start.
 1. Open a terminal in the workspace.
-1. Run `ansible-navigator run helloworld.yaml`.
+1. Run `ansible-navigator run helloworld.yaml -m stdout`.
 
 That's it.
